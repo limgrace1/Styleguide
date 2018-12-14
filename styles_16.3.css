@@ -23,6 +23,18 @@ nav h2 {
     text-decoration: none;
 }
 
+.type-styles-h {
+    font-family: Lato;
+}
+
+.type-faces-01 {
+    font-family: Lato;
+}
+
+.type-faces-02 {
+    font-family: open sans;
+}
+
 /* 
 ====================================
 Sets up styles for .content-container 
