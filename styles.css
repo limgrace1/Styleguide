@@ -12,6 +12,10 @@ Sets up styles for .sidebar-container
     width: 170px;
 }
 
+.sidebar-logo {
+    width: 150px;
+}
+
 nav {
     top: 0;
 }
@@ -51,6 +55,12 @@ Sets up styles for .content-container
   height: 100%;
 }
 
+.section-logo1 {
+    width: 300px;
+    height: 200px;
+
+}
+
 /* Sets max width for content and align content in middle of section-container */
 .content-container {
   margin: 0 auto;
@@ -86,7 +96,7 @@ COLOR SECTION
     width:100px;
     background: gray;
  }
- 
+
  .green {
     background: #8FAA7F;
  }
@@ -176,6 +186,46 @@ COLOR SECTION
     font-family: Lato;
     color: black;
 }
+
+/* 
+====================================
+Icons
+====================================
+*/
+
+.logo-barn {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-hands {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-fruit {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-medal {
+    width: 100px;
+    height: 100px;
+}
+
+/* 
+====================================
+Images
+====================================
+*/
+
+/* 
+====================================
+Contact Me
+====================================
+*/
+
+
 /* 
 ====================================
 BONUS: Sets up styles for mobile breakpoint 
