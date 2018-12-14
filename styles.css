@@ -1,0 +1,254 @@
+/* 
+====================================
+Sets up styles for .sidebar-container 
+====================================
+*/
+
+.sidebar-container {
+    background: whitesmoke;
+    height: 100%;
+    position: fixed;
+    padding: 50px;
+    width: 170px;
+}
+
+nav {
+    top: 0;
+}
+  
+nav a,
+nav h2 {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.type-styles-h {
+    font-family: Lato;
+}
+
+.type-faces-01 {
+    font-family: Lato;
+}
+
+.type-faces-02 {
+    font-family: open sans;
+}
+
+
+/* 
+====================================
+Sets up styles for .content-container 
+====================================
+*/
+
+/* Positions section container in relation to .sidebar-container */
+.section-container {
+  background: white;
+  margin-top: 0px;
+  margin-left: 250px;
+  padding: 30px 30px;
+  height: 100%;
+}
+
+/* Sets max width for content and align content in middle of section-container */
+.content-container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+
+/* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.row-container-no-wrap {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.row-container {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* =========================================
+COLOR SECTION 
+===========================================*/
+.colorBox {
+    height:40px;
+    width:100px;
+    background: gray;
+ }
+ 
+ .green {
+    background: #8FAA7F;
+ }
+ 
+ .yellow {
+    background:#F6E6B1;
+ }
+ 
+ .rust {
+    background: #CAA490;
+ }
+ 
+ .white {
+    background: #F4F4F4;
+ }
+
+
+
+.row-container-around {
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/*Primary Colors*/                
+.button-normal {
+    background: #8FAA7F;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: Lato;
+    color: black;
+}
+
+.button-hover {
+    background: #ABCC97;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: Lato;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.button-focused {
+    background: #8FAA7F;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: Lato;
+    box-shadow: 4px 4px 4px #ABCC97;
+
+}
+
+.button-active {
+    background: #62896A;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: Lato;
+    color: black;
+}
+
+.button-disable {
+    background: #D5D5D5;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    font-family: Lato;
+    color: black;
+}
+/* 
+====================================
+BONUS: Sets up styles for mobile breakpoint 
+====================================
+*/
+
+/* Hides mobile navigation on desktop */
+.mobile-nav {
+   display:none;
+}
+
+/* Sets media query for screens below 450px wide */
+@media only screen and (max-width: 450px) {
+
+    /* Position nav at the top */
+    nav {
+       position: fixed;
+       left: 0;
+    }
+
+    /* Shows Mobile Navigation Styles  */
+    .mobile-nav {
+       background: white;
+       width: 100%;
+       padding: 10px 30px;
+       display:flex;
+       justify-content: flex-start;
+       align-content: center;
+       height: 80px;
+       margin: 0;
+       box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    /* Sets max width for logos in mobile nav */
+    .mobile-nav img {
+        height: 80px;
+    }
+
+    /* Hides Sidebar on mobile */
+    .sidebar-container {
+       display: none;
+    }
+  
+    /* Defines mobile container content */
+    .section-container {
+      background: whitesmoke;
+      margin-top: 60px;
+      margin-left: 0px;
+      height: 100%;
+    }
+
+    /* Sets Type Styles */
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .row-container-no-wrap {
+      flex-wrap: wrap;
+    }
+
+    #Logo .section-logo {
+       width: 300px;
+       height: 100%;
+    }
+
+
+}
+
+/* 
+====================================
+BONUS: Sets up css code snippet styles 
+====================================
+*/
+
+pre {
+
+}
