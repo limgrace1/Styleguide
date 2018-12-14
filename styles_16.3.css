@@ -5,11 +5,11 @@ Sets up styles for .sidebar-container
 */
 
 .sidebar-container {
-    background: linear-gradient( #f8d353, #ff5c5a);
+    background: whitesmoke;
     height: 100%;
     position: fixed;
-    padding: 60px;
-    width: 180px;
+    padding: 50px;
+    width: 170px;
 }
 
 nav {
@@ -31,18 +31,17 @@ Sets up styles for .content-container
 
 /* Positions section container in relation to .sidebar-container */
 .section-container {
-  background: yellow;
-  margin-top: 40px;
-  margin-left: 290px;
+  background: white;
+  margin-top: 0px;
+  margin-left: 250px;
   padding: 30px 30px;
   height: 100%;
 }
 
 /* Sets max width for content and align content in middle of section-container */
 .content-container {
-  background: lightskyblue;
   margin: 0 auto;
-  max-width: 850px;
+  max-width: 900px;
 }
 
 
@@ -66,12 +65,28 @@ Sets up styles for .content-container
     margin-bottom: 15px;
 }
 
-.colorBox{
-    height: 100px;
-    width: 100px;
-    background: yellow;
+.colorBox {
+    height:30px;
+    width:100px;
+    background: gray;
+ }
+ 
+ .blue{
+    background: #3F5B68
+ }
+ 
+ .orange{
+    background:#E4A972;
+ }
+ 
+ .green{
+    background: #A0B89F;
+ }
+ 
+ .coral{
+    background:#DC8282;
+ }
 
-}
 .row-container-around {
     width:100%;
     display:flex;
@@ -82,6 +97,51 @@ Sets up styles for .content-container
     padding: 10px;
 }
 
+/*Primary Colors*/                
+.button-normal {
+    background: tomato;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.button-hover {
+    background: tomato;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.button-pressed {
+    background: tomato;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.button-loading {
+    background: tomato;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.button-disable {
+    background: tomato;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+}
 /* 
 ====================================
 BONUS: Sets up styles for mobile breakpoint 
